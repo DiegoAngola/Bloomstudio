@@ -2,6 +2,22 @@ import React from 'react';
 import { MapPin, Phone, Clock, Instagram, Facebook } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 
+// Helper component for WhatsApp Icon defined BEFORE usage to prevent ReferenceError
+const MessageCircleIcon: React.FC<{className?: string}> = ({className}) => (
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2" 
+    strokeLinecap="round" 
+    strokeLinejoin="round" 
+    className={className}
+  >
+    <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
+  </svg>
+);
+
 const Contact: React.FC = () => {
   const { t } = useLanguage();
 
@@ -97,21 +113,5 @@ const Contact: React.FC = () => {
     </section>
   );
 };
-
-// Helper component for WhatsApp Icon
-const MessageCircleIcon: React.FC<{className?: string}> = ({className}) => (
-  <svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    viewBox="0 0 24 24" 
-    fill="none" 
-    stroke="currentColor" 
-    strokeWidth="2" 
-    strokeLinecap="round" 
-    strokeLinejoin="round" 
-    className={className}
-  >
-    <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
-  </svg>
-)
 
 export default Contact;
