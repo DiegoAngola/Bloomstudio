@@ -13,7 +13,7 @@ const Education: React.FC = () => {
   const { t } = useLanguage();
 
   return (
-    <section id="education" className="py-20 bg-bloom-charcoal text-bloom-cream">
+    <section id="tips" className="py-20 bg-bloom-charcoal text-bloom-cream">
       <div className="container px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div className="max-w-xl">

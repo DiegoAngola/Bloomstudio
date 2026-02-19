@@ -6,7 +6,7 @@ const Contact: React.FC = () => {
   const { t } = useLanguage();
 
   return (
-    <section id="contact" className="py-20 md:py-32 bg-white">
+    <section id="contacto" className="py-20 md:py-32 bg-white">
       <div className="container px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           

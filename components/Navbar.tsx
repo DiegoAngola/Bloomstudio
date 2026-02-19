@@ -20,11 +20,11 @@ const Navbar: React.FC = () => {
   };
 
   const navLinks = [
-    { label: t.nav.home, href: '#hero' },
-    { label: t.nav.services, href: '#services' },
-    { label: t.nav.about, href: '#about' },
-    { label: t.nav.education, href: '#education' },
-    { label: t.nav.contact, href: '#contact' },
+    { label: t.nav.home, href: '#inicio' },
+    { label: t.nav.services, href: '#servicios' },
+    { label: t.nav.about, href: '#nosotros' },
+    { label: t.nav.education, href: '#tips' },
+    { label: t.nav.contact, href: '#contacto' },
   ];
 
   return (
@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
     >
       <div className="container mx-auto flex justify-between items-center px-6">
         {/* Logo */}
-        <a href="#hero" className="flex items-center gap-2 group">
+        <a href="#inicio" className="flex items-center gap-2 group">
           <Sparkles className="w-6 h-6 text-bloom-charcoal group-hover:text-bloom-pink transition-colors" />
           <span className="font-serif text-2xl font-bold tracking-wide text-bloom-charcoal">
             Bloom<span className="text-bloom-pink">.</span>
@@ -63,7 +63,7 @@ const Navbar: React.FC = () => {
           </button>
 
           <a
-            href="#contact"
+            href="#contacto"
             className="px-6 py-2 bg-bloom-charcoal text-bloom-cream text-sm uppercase tracking-widest hover:bg-bloom-pink hover:text-bloom-charcoal transition-all duration-300"
           >
             {t.nav.book}
@@ -107,7 +107,7 @@ const Navbar: React.FC = () => {
             </a>
           ))}
           <a
-            href="#contact"
+            href="#contacto"
             className="px-8 py-3 bg-bloom-charcoal text-bloom-cream text-sm uppercase tracking-widest hover:bg-bloom-pink hover:text-bloom-charcoal transition-all"
             onClick={() => setIsOpen(false)}
           >

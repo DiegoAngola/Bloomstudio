@@ -11,10 +11,10 @@ const Footer: React.FC = () => {
           Bloom<span className="text-bloom-pink">.</span>
         </h2>
         <div className="flex justify-center gap-6 mb-8 text-sm uppercase tracking-widest text-gray-500">
-            <a href="#hero" className="hover:text-bloom-charcoal">{t.nav.home}</a>
-            <a href="#services" className="hover:text-bloom-charcoal">{t.nav.services}</a>
-            <a href="#about" className="hover:text-bloom-charcoal">{t.nav.about}</a>
-            <a href="#contact" className="hover:text-bloom-charcoal">{t.nav.contact}</a>
+            <a href="#inicio" className="hover:text-bloom-charcoal">{t.nav.home}</a>
+            <a href="#servicios" className="hover:text-bloom-charcoal">{t.nav.services}</a>
+            <a href="#nosotros" className="hover:text-bloom-charcoal">{t.nav.about}</a>
+            <a href="#contacto" className="hover:text-bloom-charcoal">{t.nav.contact}</a>
         </div>
         <p className="text-gray-400 text-xs font-light">
           &copy; {new Date().getFullYear()} Bloom Beauty Studio. {t.footer.rights} <br/>

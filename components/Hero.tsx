@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
   const { t } = useLanguage();
 
   return (
-    <section id="hero" className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
+    <section id="inicio" className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
@@ -35,13 +35,13 @@ const Hero: React.FC = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="#contact"
+              href="#contacto"
               className="px-8 py-4 bg-bloom-pink text-bloom-charcoal min-w-[180px] text-sm uppercase tracking-widest hover:bg-white transition-all duration-300 font-medium"
             >
               {t.hero.bookBtn}
             </a>
             <a
-              href="#services"
+              href="#servicios"
               className="group flex items-center gap-2 px-8 py-4 border border-white/30 hover:border-white text-white min-w-[180px] justify-center text-sm uppercase tracking-widest hover:bg-white/10 transition-all duration-300 backdrop-blur-sm"
             >
               {t.hero.servicesBtn} <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

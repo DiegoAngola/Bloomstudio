@@ -12,7 +12,7 @@ const Services: React.FC = () => {
   const { t } = useLanguage();
 
   return (
-    <section id="services" className="py-20 md:py-32 bg-white">
+    <section id="servicios" className="py-20 md:py-32 bg-white">
       <div className="container px-6">
         <div className="text-center mb-16 max-w-2xl mx-auto">
           <span className="text-bloom-pink uppercase tracking-widest text-sm font-semibold">{t.services.label}</span>
