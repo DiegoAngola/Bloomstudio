@@ -35,7 +35,9 @@ const Hero: React.FC = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="#contacto"
+              href="https://bloombeauty.site.agendapro.com/ar/sucursal/368956"
+              target="_blank"
+              rel="noreferrer"
               className="px-8 py-4 bg-bloom-pink text-bloom-charcoal min-w-[180px] text-sm uppercase tracking-widest hover:bg-white transition-all duration-300 font-medium"
             >
               {t.hero.bookBtn}

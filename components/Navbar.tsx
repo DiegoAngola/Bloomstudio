@@ -63,7 +63,9 @@ const Navbar: React.FC = () => {
           </button>
 
           <a
-            href="#contacto"
+            href="https://bloombeauty.site.agendapro.com/ar/sucursal/368956"
+            target="_blank"
+            rel="noreferrer"
             className="px-6 py-2 bg-bloom-charcoal text-bloom-cream text-sm uppercase tracking-widest hover:bg-bloom-pink hover:text-bloom-charcoal transition-all duration-300"
           >
             {t.nav.book}
@@ -107,7 +109,9 @@ const Navbar: React.FC = () => {
             </a>
           ))}
           <a
-            href="#contacto"
+            href="https://bloombeauty.site.agendapro.com/ar/sucursal/368956"
+            target="_blank"
+            rel="noreferrer"
             className="px-8 py-3 bg-bloom-charcoal text-bloom-cream text-sm uppercase tracking-widest hover:bg-bloom-pink hover:text-bloom-charcoal transition-all"
             onClick={() => setIsOpen(false)}
           >
