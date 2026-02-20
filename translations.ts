@@ -24,25 +24,25 @@ export const translations = {
         {
           id: 'brows',
           title: 'Laminado de Cejas',
-          description: 'Reforma y fija tus cejas para una apariencia más completa, levantada y perfectamente arreglada que dura semanas.',
+          description: 'Reforma y fija tus cejas con nuestro exclusivo laminado de cejas en Buenos Aires. Logra una apariencia más completa, levantada y perfectamente arreglada que dura semanas.',
           duration: '45 min'
         },
         {
           id: 'lashes',
           title: 'Lifting de Pestañas',
-          description: 'Realza tus pestañas naturales con un rizo y tinte semipermanente. No necesitas extensiones.',
+          description: 'Realza tus pestañas naturales con nuestro lifting de pestañas profesional. Un rizo y tinte semipermanente ideal para destacar tu mirada en CABA sin extensiones.',
           duration: '60 min'
         },
         {
           id: 'waxing',
           title: 'Depilación con Cera/Hilo',
-          description: 'Eliminación precisa del vello utilizando ceras orgánicas o técnicas tradicionales de hilo para una piel suave.',
+          description: 'Eliminación precisa del vello con perfilado de cejas y depilación con hilo o cera orgánica para una piel suave y radiante.',
           duration: 'Var'
         },
         {
           id: 'pmu',
           title: 'Micropigmentación',
-          description: 'Soluciones de maquillaje semipermanente incluyendo Microblading y Powder Brows para una belleza sin esfuerzo.',
+          description: 'Soluciones de maquillaje semipermanente incluyendo Microblading y Powder Brows para una belleza natural y sin esfuerzo.',
           duration: '120 min'
         }
       ]
@@ -51,15 +51,15 @@ export const translations = {
       label: 'Quiénes Somos',
       title: 'Más que un estudio,',
       titleItalic: 'es una experiencia.',
-      p1: 'En Bloom Beauty Studio, creemos que el cuidado personal es un ritual, no una rutina. Fundado en los principios del lujo minimalista y el empoderamiento, nuestro espacio está diseñado para ser tu santuario.',
-      p2: 'Nuestro equipo de especialistas certificados se dedica a realzar tu belleza natural a través de tratamientos personalizados. Valoramos la precisión, la higiene y la confianza que proviene de sentirte mejor.',
+      p1: 'En Bloom Beauty Studio, creemos que el cuidado de la piel es un ritual, no una rutina. Fundado en los principios del lujo minimalista, somos tu destino para el bienestar y la belleza natural en Buenos Aires.',
+      p2: 'Nuestro equipo de especialistas certificados se dedica a realzar tu belleza natural a través de tratamientos personalizados como el laminado y lifting. Valoramos la precisión, la higiene y la confianza.',
       quote: 'La belleza es estar cómodo en tu propia piel. Es saber y aceptar quién eres.',
       philosophy: '- Nuestra Filosofía'
     },
     education: {
       label: 'Educación y Confianza',
       title: 'Diario de Cuidado',
-      subtitle: 'Consejos expertos para mantener tu brillo entre visitas. Creemos que los clientes educados toman las mejores decisiones para su belleza.',
+      subtitle: 'Consejos expertos sobre cuidado de la piel para mantener tu brillo entre visitas. Creemos que los clientes educados toman las mejores decisiones para su rutina de belleza.',
       items: [
          {
           id: 'spf',
