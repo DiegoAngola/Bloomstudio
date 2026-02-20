@@ -120,7 +120,7 @@ export const translations = {
       servicesBtn: 'View Services',
     },
     services: {
-      label: 'Our Menu',
+      label: 'Our Services',
       title: 'Curated Treatments',
       description: 'We use only premium products and the latest techniques to ensure safe, stunning, and long-lasting results.',
       items: [
