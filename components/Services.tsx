@@ -2,7 +2,7 @@ import React from 'react';
 import { useLanguage } from '../LanguageContext';
 
 const images = {
-  brows: 'https://images.unsplash.com/photo-1588510883331-52723c023d85?q=80&w=800&auto=format&fit=crop',
+  brows: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=800&auto=format&fit=crop',
   lashes: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=800&auto=format&fit=crop',
   waxing: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=800&auto=format&fit=crop',
   pmu: 'https://images.unsplash.com/photo-1620331317312-74b88bf40907?q=80&w=800&auto=format&fit=crop'

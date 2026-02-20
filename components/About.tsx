@@ -17,7 +17,7 @@ const About: React.FC = () => {
             <div className="relative">
               <div className="absolute -top-4 -left-4 w-full h-full border-2 border-bloom-pink"></div>
               <img
-                src="https://images.unsplash.com/photo-1595152452543-e5cca283f5b7?q=80&w=1200&auto=format&fit=crop"
+                src="https://dcx13p9dsx90t.cloudfront.net/uploads/attachment_images/144182/attachment_9d1237692c710566.png"
                 alt="Studio Interior"
                 className="w-full h-auto object-cover relative z-10 shadow-lg"
               />

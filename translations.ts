@@ -17,7 +17,7 @@ export const translations = {
       servicesBtn: 'Ver Servicios',
     },
     services: {
-      label: 'Nuestro Menú',
+      label: 'Nuestros Servicios',
       title: 'Tratamientos Curados',
       description: 'Utilizamos solo productos premium y las últimas técnicas para asegurar resultados seguros, impresionantes y duraderos.',
       items: [
@@ -25,28 +25,24 @@ export const translations = {
           id: 'brows',
           title: 'Laminado de Cejas',
           description: 'Reforma y fija tus cejas para una apariencia más completa, levantada y perfectamente arreglada que dura semanas.',
-          price: '$65',
           duration: '45 min'
         },
         {
           id: 'lashes',
           title: 'Lifting de Pestañas',
           description: 'Realza tus pestañas naturales con un rizo y tinte semipermanente. No necesitas extensiones.',
-          price: '$75',
           duration: '60 min'
         },
         {
           id: 'waxing',
           title: 'Depilación con Cera/Hilo',
           description: 'Eliminación precisa del vello utilizando ceras orgánicas o técnicas tradicionales de hilo para una piel suave.',
-          price: 'Desde $20',
           duration: 'Var'
         },
         {
           id: 'pmu',
           title: 'Micropigmentación',
           description: 'Soluciones de maquillaje semipermanente incluyendo Microblading y Powder Brows para una belleza sin esfuerzo.',
-          price: 'Desde $300',
           duration: '120 min'
         }
       ]
@@ -132,28 +128,24 @@ export const translations = {
           id: 'brows',
           title: 'Eyebrow Lamination',
           description: 'Reshape and set your brows for a fuller, lifted, and perfectly groomed look that lasts for weeks.',
-          price: '$65',
           duration: '45 min'
         },
         {
           id: 'lashes',
           title: 'Lash Lifting',
           description: 'Enhance your natural lashes with a semi-permanent curl and tint. No extensions needed.',
-          price: '$75',
           duration: '60 min'
         },
         {
           id: 'waxing',
           title: 'Waxing & Threading',
           description: 'Precision hair removal using organic waxes or traditional threading techniques for smooth skin.',
-          price: 'From $20',
           duration: 'Var'
         },
         {
           id: 'pmu',
           title: 'Micropigmentation',
           description: 'Semi-permanent makeup solutions including Microblading and Powder Brows for effortless beauty.',
-          price: 'From $300',
           duration: '120 min'
         }
       ]
