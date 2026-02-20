@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Clock, Instagram, Facebook } from 'lucide-react';
+import { MapPin, Phone, Clock, Instagram } from 'lucide-react';
 import { useLanguage } from '../LanguageContext';
 
 // Helper component for WhatsApp Icon defined BEFORE usage to prevent ReferenceError
@@ -63,15 +63,14 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-serif text-lg text-bloom-charcoal mb-1">{t.contact.contactTitle}</h4>
-                  <p className="text-gray-500 font-light">+1 (555) 123-4567</p>
-                  <p className="text-gray-500 font-light">hello@bloomstudio.com</p>
+                  <p className="text-gray-500 font-light">+54 9 11 5882-7821</p>
                 </div>
               </div>
             </div>
 
             <div className="mt-12 flex gap-4">
               <a 
-                href="https://wa.me/15551234567" 
+                href="https://wa.me/5491158827821" 
                 target="_blank" 
                 rel="noreferrer"
                 className="flex-1 bg-green-600 text-white py-4 px-6 text-center uppercase tracking-widest text-sm hover:bg-green-700 transition-colors flex items-center justify-center gap-2"
@@ -79,16 +78,12 @@ const Contact: React.FC = () => {
                 <MessageCircleIcon className="w-5 h-5" /> {t.contact.whatsapp}
               </a>
               <a 
-                href="#"
+                href="https://www.instagram.com/luisangelli.studio/"
+                target="_blank"
+                rel="noreferrer"
                 className="w-14 h-14 border border-gray-200 flex items-center justify-center text-gray-400 hover:text-bloom-charcoal hover:border-bloom-charcoal transition-all"
               >
                 <Instagram className="w-5 h-5" />
-              </a>
-              <a 
-                href="#"
-                className="w-14 h-14 border border-gray-200 flex items-center justify-center text-gray-400 hover:text-bloom-charcoal hover:border-bloom-charcoal transition-all"
-              >
-                <Facebook className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -96,7 +91,7 @@ const Contact: React.FC = () => {
           {/* Map */}
           <div className="h-[500px] w-full bg-gray-100 relative grayscale hover:grayscale-0 transition-all duration-700">
              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.184128796859!2d-73.9856566845941!3d40.74844097932765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1622646294717!5m2!1sen!2sus" 
+                src="https://maps.google.com/maps?q=Av.+Rivadavia+2230,+C1034+Cdad.+Autónoma+de+Buenos+Aires,+Argentina&t=&z=15&ie=UTF8&iwloc=&output=embed" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
